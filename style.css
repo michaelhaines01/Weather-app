@@ -1,0 +1,116 @@
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: #036;
+  padding: 10px 10px;
+  justify-content: space-between;
+  align-content: center;
+  height: 8%;
+}
+
+form {
+  color: whitesmoke;
+  margin-top: 30px;
+}
+
+#request {
+  color: whitesmoke;
+  background-color: rgb(66, 70, 131);
+  border-radius: 3px;
+}
+#name {
+  color: whitesmoke;
+  display: flex;
+  align-content: center;
+}
+#error {
+  display: none;
+  color: red;
+  margin-top: 3px;
+}
+#intro {
+  color: grey;
+  text-align: center;
+}
+input {
+  border-radius: 5px;
+}
+
+body {
+  background-color: #dad4d4e1;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#weatherbox {
+  width: 35%;
+  height: 75%;
+  margin: auto;
+}
+
+#weatherdiv {
+  height: 50%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#weatherinfo {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 20% auto 33%;
+  grid-template-rows: 16% 16% 11% 11% 11%;
+  grid-template-areas:
+    "header header flag"
+    "weather temp feels "
+    ". temp min"
+    "pic temp max"
+    "pic . wind-speed";
+}
+#header {
+  grid-area: header;
+  font-size: 250%;
+  align-self: center;
+  padding-left: 50px;
+}
+#flag {
+  grid-area: flag;
+  align-self: center;
+}
+#weather {
+  grid-area: weather;
+  font-size: 150%;
+  padding-left: 20px;
+}
+#temp {
+  grid-area: temp;
+  font-size: 550%;
+  align-self: center;
+  justify-self: center;
+}
+
+#feels {
+  grid-area: feels;
+}
+#max {
+  grid-area: max;
+  align-self: center;
+}
+#min {
+  align-self: center;
+  grid-area: min;
+}
+#icon {
+  grid-area: pic;
+  padding: 20px;
+  margin-top: -29;
+  margin-left: -15;
+}
+#wind-speed {
+  grid-area: wind-speed;
+  align-self: center;
+}
