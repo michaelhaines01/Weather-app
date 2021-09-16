@@ -11,5 +11,7 @@ I created this app to practice working with API and also to get more familiar wi
 * CSS
 * JS
 
-I completed this project as part of the Odin project [Guide used]() 
 [LIVE VERSION HERE](https://michaelhaines01.github.io/Weather-app/weather.html)
+
+I completed this project as part of the Odin project [guide used](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/weather-app) 
+
