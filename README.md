@@ -1,11 +1,15 @@
-WEATHER APP
-This project is part of the Odin Project's Javascript curriculum.
+# Weather app
 
-It is aimed at practicing working with APIs and using promises as well as the async/await keywords.
+I created this app to practice working with API and also to get more familiar with Async/await functions 
 
-It displays the current weather in a chosen location. 
+# Features
+* Look up current weather in any city and country in the world.
 
-APIs used:
-OpenWeather
+## Built with
+* API: Open weather
+* HTML
+* CSS
+* JS
 
+I completed this project as part of the Odin project [Guide used]() 
 [LIVE VERSION HERE](https://michaelhaines01.github.io/Weather-app/weather.html)
